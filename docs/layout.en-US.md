@@ -24,7 +24,7 @@ If you need more structured layout components, then [Layout](http://ant.design/c
 
 Under most cases, we will build more specific components from the above ones, that includes navigation, sidebar, notification, titles etc., An example would be [BasicLayout](https://github.com/ant-design/ant-design-pro/blob/master/src/layouts/BasicLayout.js) from Ant Design Pro.
 
-We put layout components inside `layout`, parrallel to `routes` and `components`. It is worth noting that layout components has no fundamental difference from other components, just that it deals with layout.
+We put layout components inside `layouts`, parrallel to `routes` and `components`. It is worth noting that layout components has no fundamental difference from other components, just that it deals with layout.
 
 ### Handling `this.props.children`
 
